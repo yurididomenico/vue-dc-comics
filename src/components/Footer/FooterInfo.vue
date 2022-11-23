@@ -62,40 +62,45 @@
 <style lang="scss" scoped>
 
 // ----- GENERALE --------------------------------------------------------------- //
-.sfondo-DC
-{
-    background-image: url('../../assets/img/footer-bg.jpg');
-}
-
-ul
-{
-    margin: 20px;
-
-    li:first-child
+    .sfondo-DC
     {
-        margin-bottom: 10px;
-        color: white;
+        background-image: url('../../assets/img/footer-bg.jpg');
+        overflow: hidden;
     }
 
-    li
+    ul
     {
-        font-size: 0.7rem;
-        color: grey;
-        padding-bottom: 7px;
+        margin: 20px;
+
+        li:first-child
+        {
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        li
+        {
+            font-size: 0.7rem;
+            color: grey;
+            padding-bottom: 7px;
+        }
     }
-}
 
-img
-{
-    width: 600px;
-    aspect-ratio: 1/1;
-    position: absolute;
-    right: 0;
-    top: -100px;
-}
+    img
+    {
+        width: 600px;
+        aspect-ratio: 1/1;
+        position: absolute;
+        right: 0;
+        top: -100px;
 
-.p-relative
-{
-    position: relative;
-}
+        
+    }
+
+    .p-relative
+    {
+        position: relative;
+    }
+
+    
 </style>

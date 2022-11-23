@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <footer>
         <FooterInfo/>
         <FooterAboutus/>
-    </div>
+    </footer>
 </template>
 
 <script>
