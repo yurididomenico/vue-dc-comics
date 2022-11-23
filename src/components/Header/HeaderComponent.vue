@@ -1,10 +1,10 @@
 <template>
     <header class="margin-y-30">
-        <a href="#" alt="Logo" class="contenitore65 flex-mode f-justify-between f-align-center">
-            <img class="width-80" src="../../assets/img/dc-logo.png" alt="Logo_DC">
+        <div class="contenitore65 flex-mode f-justify-between f-align-center">
+            <a href="#"><img class="header-logo width-80" src="../../assets/img/dc-logo.png" alt="Logo_DC"></a>
             <ul class="flex-mode">
                 <li><a href="#">CHARACTERS</a></li>
-                <li class="active"><a href="#">COMICS</a></li>
+                <li><a href="#" class="active">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
                 <li><a href="#">GAMES</a></li>
@@ -14,7 +14,7 @@
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">SHOP</a></li>
             </ul>
-        </a>
+        </div>
     </header>
 </template>
 
@@ -39,11 +39,25 @@
         padding: 15px 0;
     }
 
+    .header-logo:hover
+    {
+        opacity: 0.8;
+    }
+    
+
     ul > li
     {
         font-size: 0.8rem;
         font-weight: bold;
         padding: 0 15px;
+        
+        
+        &:hover a:not(.active)
+        {
+            padding-bottom: 45px;
+            box-shadow: 0 4px 0 #0282f9;
+        }
+    
     }
 
     .width-80
@@ -54,7 +68,8 @@
     .active
     {
         color: #0282f9;
-        // border-bottom: 3px solid #0282f9;
+        padding-bottom: 45px;
+        box-shadow: 0 4px 0 #0282f9;
     }
 
     
