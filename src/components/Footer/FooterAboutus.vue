@@ -36,19 +36,33 @@
     {
         border: 2px solid #0087ff;
         padding: 15px;
-        //////////////////////////////////////////////////////////////////////////////////////////////
-        // &:hover
-        // {
-        //     background-color: #585858;
-        //     transition-duration: 200ms;
-        // }
-        //////////////////////////////////////////////////////////////////////////////////////////////
+        
+        &:hover
+        {
+            background-color: black;
+            color: #0087ff;
+            font-weight: bold;
+        }
+        
     }
 
-    .section-followUs > *
+    .section-followUs
     {
-        padding: 0 10px;
+        a
+        {
+            padding: 0 10px;
+            h2:hover
+            {
+                color: rgb(226, 226, 226);
+                text-shadow: 0 0 20px #0087ff;
+            }
+
+            img:hover
+            {
+                border-radius: 100%;
+                background-color: white;
+                box-shadow: 0 0 30px #0087ff;
+            }
+        }
     }
-
-
 </style>

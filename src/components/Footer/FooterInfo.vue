@@ -83,6 +83,18 @@
             font-size: 0.7rem;
             color: grey;
             padding-bottom: 7px;
+
+            &:hover
+            {
+                cursor: pointer;
+            }
+
+            a:hover
+            {
+                color: #0282f9;
+                transition-duration: 0;
+                cursor: pointer;
+            }
         }
     }
 

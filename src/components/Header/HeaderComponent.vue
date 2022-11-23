@@ -56,6 +56,7 @@
         {
             padding-bottom: 45px;
             box-shadow: 0 4px 0 #0282f9;
+            color: #0282f9;
         }
     
     }
