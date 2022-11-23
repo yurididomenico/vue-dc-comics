@@ -1,6 +1,5 @@
 <template>
     <div>
-        <span>Footer</span>
         <FooterInfo/>
         <FooterAboutus/>
     </div>
