@@ -5,7 +5,7 @@
                 <li><a href="#" class="flex-mode f-align-center"><img src="../../assets/img/buy-comics-digital-comics.png" alt="Icona Digital Comics"><span>DIGITAL COMICS</span></a></li>
                 <li><a href="#" class="flex-mode f-align-center"><img src="../../assets/img/buy-comics-merchandise.png" alt="Icona Digital Comics"><span>DC MERCHANDISE</span></a></li>
                 <li><a href="#" class="flex-mode f-align-center"><img src="../../assets/img/buy-comics-subscriptions.png" alt="Icona Digital Comics"><span>SUBSCRIPTION</span></a></li>
-                <li><a href="#" class="flex-mode f-align-center"><img src="../../assets/img/buy-comics-shop-locator.png" alt="Icona Digital Comics" class="width-"><span>COMIC SHOP LOCATOR</span></a></li>
+                <li><a href="#" class="flex-mode f-align-center"><img src="../../assets/img/buy-comics-shop-locator.png" alt="Icona Digital Comics" class="width-30"><span>COMIC SHOP LOCATOR</span></a></li>
                 <li><a href="#" class="flex-mode f-align-center"><img src="../../assets/img/buy-dc-power-visa.svg" alt="Icona Digital Comics"><span>SC POWER VISA</span></a></li>
             </ul>
         </div>
@@ -41,7 +41,7 @@
                 width: 40px;
             }
 
-            .width-
+            .width-30
             {
                 width: 30px;
             }
