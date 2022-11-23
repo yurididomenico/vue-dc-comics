@@ -41,6 +41,9 @@ export default {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 body
@@ -52,8 +55,55 @@ body
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   // color: #2c3e50;
   color: white;
+}
+
+// ----- PRESET --------------------------------------------------------------- //
+.contenitore65
+{
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.margin-y-30
+{
+  margin: 30px 0;
+}
+
+.padding-y-30
+{
+  padding: 30px 0;
+}
+
+.padding-y-40
+{
+  padding: 40px 0;
+}
+
+.text-left
+{
+  text-align: left;
+}
+
+// ----- FLEX --------------------------------------------------------------- //
+.flex-mode
+{
+  display: flex;
+}
+
+.f-align-center
+{
+  align-items: center;
+}
+
+.f-justify-between
+{
+  justify-content: space-between
+}
+
+.f-justify-around
+{
+  justify-content: space-around
 }
 </style>

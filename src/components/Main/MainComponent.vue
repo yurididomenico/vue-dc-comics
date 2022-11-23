@@ -1,6 +1,5 @@
 <template>
     <div>
-        <span>Main</span>
         <MainContenutoComponent/>
         <MainShopComponent/>
     </div>

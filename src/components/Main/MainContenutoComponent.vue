@@ -1,6 +1,6 @@
 <template>
-    <div>
-        Main: Corpo
+    <div class="contenitore65 padding-y-30">
+        <h2 class="text-left">Scrivi qui :)</h2>
     </div>
 </template>
 
@@ -13,4 +13,11 @@
 
 <style lang="scss" scoped>
 
+    // ----- GENERALE --------------------------------------------------------------- //
+    .contenitore65
+    {
+        width: 65vw;
+        margin: 0 auto;
+    }
+    
 </style>
