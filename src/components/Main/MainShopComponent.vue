@@ -46,6 +46,15 @@
                 width: 30px;
             }
             
+            &:hover
+            {
+                text-shadow: 1px 1px 5px black;
+            }
+
+            &:hover img
+            {
+                opacity: 0.8;
+            }
         }
     }
 </style>

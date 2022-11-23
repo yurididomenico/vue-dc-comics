@@ -44,6 +44,7 @@ export default {
   color: inherit;
   text-decoration: none;
   list-style-type: none;
+  transition-duration: 200ms;
 }
 
 body
