@@ -11,7 +11,9 @@
                 :key="index"
                 :dettagliCarta="elem"
                 />
+                <span id="bottone-loadMore" class="btn bg-dc-blue text-white">LOAD MORE</span>
             </div>
+            
         </div>
     </main>
 </template>
@@ -130,11 +132,18 @@
         left: 0;
         transform: translateY(-50%);
     }
+
+    #bottone-loadMore
+    {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
     
     .areaCarte
     {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
         gap: 60px 30px;
         padding: 20px 10px;
