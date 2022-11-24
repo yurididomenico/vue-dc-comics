@@ -4,11 +4,14 @@
             <img src="../../assets/img/jumbotron.jpg" alt="Immagine Jumbotron">
         </div>
         <div class="contenitore65 padding-y-30 p-relative">
-            <a href="#" id="botone-serieCorrente" class="btn bg-dc-blue font-size-14 font-weight-bold p-absolute">CURRENT SERIES</a>
-            <CardComponent
+            <a href="#" id="bottone-serieCorrente" class="btn bg-dc-blue font-size-14 font-weight-bold p-absolute">CURRENT SERIES</a>
+            <div class="areaCarte">
+                <CardComponent
                 v-for="(elem, index) in carte"
                 :key="index"
-                :dettagliCarta="elem"/>
+                :dettagliCarta="elem"
+                />
+            </div>
         </div>
     </main>
 </template>
@@ -114,13 +117,26 @@
     {
         height: 45vh;
         overflow: hidden;
+
+        img
+        {
+            width: 100%;
+        }
     }
 
-    #botone-serieCorrente
+    #bottone-serieCorrente
     {
         top: 0;
         left: 0;
         transform: translateY(-50%);
     }
     
+    .areaCarte
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 60px 30px;
+        padding: 20px 10px;
+    }
 </style>

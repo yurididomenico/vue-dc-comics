@@ -1,10 +1,12 @@
 <template>
-    <div class="areaCarte">
-        <div class="carta">
-            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
-            <div>Titolo Carta</div>
+    
+    <div class="carta">
+        <div>
+            <img :src="dettagliCarta.thumb">
         </div>
+        <div>{{dettagliCarta.series.toUpperCase()}}</div>
     </div>
+
 </template>
 
 <script>
@@ -17,20 +19,27 @@
 </script>
 
 <style lang="scss" scoped>
-.areaCarte
+.carta
 {
-    padding: 10px 0;
-    .carta
+    width: calc(100% / 6 - 30px);
+    
+    div:first-child
     {
-        >*
-        {
-            padding: 10px 20px;
-        }
+        width: 100%;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+    }
 
-        div
-        {
-            font-size: 1.2rem;
-        }
+    img
+    {
+        width: 100%;
+    }
+
+
+    div:last-child
+    {
+        font-size: 1.2rem;
+        padding-top: 20px;
     }
 }
 </style>
