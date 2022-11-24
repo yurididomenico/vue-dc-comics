@@ -4,16 +4,21 @@
             <img src="../../assets/img/jumbotron.jpg" alt="Immagine Jumbotron">
         </div>
         <div class="contenitore65 padding-y-30 p-relative">
-            <span id="botone-serieCorrente" class="btn bg-dc-blue font-size-14 font-weight-bold p-absolute">CURRENT SERIES</span>
-            Scrivi Qui
+            <a href="#" id="botone-serieCorrente" class="btn bg-dc-blue font-size-14 font-weight-bold p-absolute">CURRENT SERIES</a>
+            <CardComponent/>
         </div>
     </main>
 </template>
 
 <script>
+    import CardComponent from './CardComponent.vue'
+
     export default
     {
-        name: 'MainContenutoComponent'
+        name: 'MainContenutoComponent',
+        components: {
+            CardComponent
+        }
     }
 </script>
 
