@@ -139,7 +139,7 @@
         font-weight: bold;
     }
 
-    #bottone-serieCorrente:hover,
+    
     #bottone-loadMore:hover
     {
         background-color: black;
