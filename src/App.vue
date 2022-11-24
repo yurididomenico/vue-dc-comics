@@ -65,7 +65,7 @@ body
 
 .btn
 {
-
+  padding: 10px 30px;
 }
 
 .bg-dc-blue
@@ -76,6 +76,11 @@ body
 .text-dc-blue
 {
   color: #0282f9;
+}
+
+.text-white
+{
+  color: white;
 }
 
 // ----- PRESET --------------------------------------------------------------- //
@@ -100,6 +105,16 @@ body
   text-align: left;
 }
 
+.font-size-14
+{
+  font-size: 1.4rem;
+}
+
+.font-weight-bold
+{
+  font-weight: bold;
+}
+
 // ----- FLEX --------------------------------------------------------------- //
 .flex-mode
 {
@@ -120,4 +135,18 @@ body
 {
   justify-content: space-around
 }
+
+// ----- POSITIONS --------------------------------------------------------------- //
+
+.p-relative
+{
+  position: relative;
+}
+
+.p-absolute
+{
+  position: absolute;
+}
+
+
 </style>
