@@ -9,11 +9,17 @@
 
 <script>
     export default {
-        name: 'CardComponent'
+        name: 'CardComponent',
+        props: {
+            dettagliCarta: Object
+        }
     }
 </script>
 
 <style lang="scss" scoped>
+.areaCarte
+{
+    padding: 10px 0;
     .carta
     {
         >*
@@ -26,4 +32,5 @@
             font-size: 1.2rem;
         }
     }
+}
 </style>
