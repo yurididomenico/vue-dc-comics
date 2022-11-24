@@ -1,10 +1,10 @@
 <template>
     
-    <div class="carta">
+    <div class="carta p-relative">
         <div>
-            <img :src="dettagliCarta.thumb">
+            <a href="#"><img :src="dettagliCarta.thumb"></a>
         </div>
-        <div>{{dettagliCarta.series.toUpperCase()}}</div>
+        <div class="titolo">{{dettagliCarta.series.toUpperCase()}}</div>
     </div>
 
 </template>
@@ -36,10 +36,31 @@
     }
 
 
-    div:last-child
+    .titolo
     {
         font-size: 1.2rem;
         padding-top: 20px;
+    }
+
+    &:hover img
+    {
+        opacity: 0.4;
+        transform: scale(0.8);
+        transition-duration: 500ms;
+    }
+
+    &:hover .titolo
+    {
+        position: relative;
+        transform: scale(2) translateY(-30%);
+        transition-duration: 500ms;
+        background-color: black;
+        color: #cfe4f8;
+        box-shadow: 0 0 20px #0282f9;
+        z-index: 1;
+        padding: 0 5px;
+        font-size: 0.8rem;
+        border-radius: 10px;
     }
 }
 </style>
