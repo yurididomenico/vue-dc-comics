@@ -36,6 +36,8 @@ export default {
 </script>
 
 <style lang="scss">
+// ----- GENERALE --------------------------------------------------------------- //
+
 *
 {
   padding: 0;
@@ -61,16 +63,26 @@ body
   
 }
 
+.btn
+{
+
+}
+
+.bg-dc-blue
+{
+  background-color: #0282f9;
+}
+
+.text-dc-blue
+{
+  color: #0282f9;
+}
+
 // ----- PRESET --------------------------------------------------------------- //
 .contenitore65
 {
   width: 65vw;
   margin: 0 auto;
-}
-
-.margin-y-30
-{
-  margin: 30px 0;
 }
 
 .padding-y-30

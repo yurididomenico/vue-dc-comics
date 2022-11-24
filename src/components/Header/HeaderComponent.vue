@@ -1,5 +1,5 @@
 <template>
-    <header class="margin-y-30">
+    <header>
         <div class="contenitore65 flex-mode f-justify-between f-align-center">
             <a href="#"><img class="header-logo width-80" src="../../assets/img/dc-logo.png" alt="Logo_DC"></a>
             <ul class="flex-mode">
@@ -24,12 +24,10 @@
     }
 </script>
 
+
+
 <style lang="scss" scoped>
-    // ----- PRESET --------------------------------------------------------------- //
-    .margin-y-30
-    {
-        margin: 30px 0;
-    }
+    
 
     // ----- GENERALE --------------------------------------------------------------- //
     header

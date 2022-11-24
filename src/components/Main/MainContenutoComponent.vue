@@ -1,7 +1,14 @@
 <template>
-    <div class="contenitore65 padding-y-30">
-        <h2 class="text-left">Scrivi qui :)</h2>
-    </div>
+    <main>
+        <div class="jumbotron-image">
+            <img src="../../assets/img/jumbotron.jpg" alt="Immagine Jumbotron">
+        </div>
+        <div class="contenitore65 padding-y-30">
+            <span class="btn bg-dc-blue">TESTO</span>
+            Scrivi Qui
+
+        </div>
+    </main>
 </template>
 
 <script>
@@ -12,12 +19,15 @@
 </script>
 
 <style lang="scss" scoped>
-
-    // ----- GENERALE --------------------------------------------------------------- //
-    .contenitore65
+    main
     {
-        width: 65vw;
-        margin: 0 auto;
+        background-color: #1c1c1c;
+    }
+
+    .jumbotron-image
+    {
+        height: 45vh;
+        overflow: hidden;
     }
     
 </style>

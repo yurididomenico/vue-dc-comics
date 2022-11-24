@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <main>
         <MainContenutoComponent/>
         <MainShopComponent/>
-    </div>
+    </main>
 </template>
 
 <script>
